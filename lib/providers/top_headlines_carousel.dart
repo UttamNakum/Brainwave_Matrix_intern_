@@ -74,7 +74,7 @@ class _TopHeadlinesCarouselState extends State<TopHeadlinesCarousel> {
                   height: 180,
                   width: double.infinity,
                   placeholder: (context, url) => const Center(child: CircularProgressIndicator()),
-                  errorWidget: (context, url, error) => const Icon(Icons.image_not_supported, size: 40),
+                  errorWidget: (context, url, error) => const Icon(Icons.broken_image, size: 40),
                 ),
                 Container(
                   decoration: BoxDecoration(
