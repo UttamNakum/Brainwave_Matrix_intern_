@@ -1,16 +1,33 @@
-# news_reader_app
+# 📰 News Reader App – Flutter
+A modern, responsive News Reader App built with Flutter that displays the latest news headlines from NewsAPI.org.
+Supports category-based browsing, light/dark themes, carousel headlines, WebView reading, and more.
 
-A new Flutter project.
+## ✨ Features
+✅ Top Headlines Carousel (Auto Swipe with Images)
 
-## Getting Started
+🔎 Category Filtering – Business, Sports, Tech, etc.
 
-This project is a starting point for a Flutter application.
+🌙 Dark Mode Support (Toggle from AppBar)
 
-A few resources to get you started if this is your first Flutter project:
+🌐 Read Full Articles in WebView
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+📱 Responsive UI for all devices
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+🔁 Swipe Navigation (horizontal page view)
+
+🔃 Pull to Refresh
+
+❌ Graceful fallback for broken/empty images
+
+
+### 🛠️ Tech Stack
+Flutter (Dart)
+
+Provider – State Management
+
+WebView Flutter – In-app browsing
+
+Cached Network Image – Optimized image loading
+
+NewsAPI.org – News Source
+
